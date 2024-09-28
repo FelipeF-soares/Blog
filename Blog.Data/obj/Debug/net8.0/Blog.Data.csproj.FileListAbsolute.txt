@@ -1,0 +1,15 @@
+C:\GitHub\Blog\Blog.Data\bin\Debug\net8.0\Blog.Data.deps.json
+C:\GitHub\Blog\Blog.Data\bin\Debug\net8.0\Blog.Data.dll
+C:\GitHub\Blog\Blog.Data\bin\Debug\net8.0\Blog.Data.pdb
+C:\GitHub\Blog\Blog.Data\bin\Debug\net8.0\Blog.Models.dll
+C:\GitHub\Blog\Blog.Data\bin\Debug\net8.0\Blog.Models.pdb
+C:\GitHub\Blog\Blog.Data\obj\Debug\net8.0\Blog.Data.csproj.AssemblyReference.cache
+C:\GitHub\Blog\Blog.Data\obj\Debug\net8.0\Blog.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\Blog\Blog.Data\obj\Debug\net8.0\Blog.Data.AssemblyInfoInputs.cache
+C:\GitHub\Blog\Blog.Data\obj\Debug\net8.0\Blog.Data.AssemblyInfo.cs
+C:\GitHub\Blog\Blog.Data\obj\Debug\net8.0\Blog.Data.csproj.CoreCompileInputs.cache
+C:\GitHub\Blog\Blog.Data\obj\Debug\net8.0\Blog.Data.csproj.Up2Date
+C:\GitHub\Blog\Blog.Data\obj\Debug\net8.0\Blog.Data.dll
+C:\GitHub\Blog\Blog.Data\obj\Debug\net8.0\refint\Blog.Data.dll
+C:\GitHub\Blog\Blog.Data\obj\Debug\net8.0\Blog.Data.pdb
+C:\GitHub\Blog\Blog.Data\obj\Debug\net8.0\ref\Blog.Data.dll
