@@ -1,6 +1,7 @@
 ﻿using Blog.Data.DataContext;
 using Blog.Data.Repository.Interfaces;
 using Blog.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -31,12 +32,12 @@ public class NewsRepository : INewsRepository
     }
     public News GetById(int id)
     {
-        var news = context.News.FirstOrDefault(x => x.Id == id);
+        var news = context.News.AsNoTracking().FirstOrDefault(x => x.Id == id);
         return news;
     }
     public IEnumerable<News> GetAll()
     {
-        var news = context.News;
+        var news = context.News.AsNoTracking();
         return news;
     }
     public bool SaveChange()

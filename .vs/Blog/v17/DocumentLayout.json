@@ -1,7 +1,32 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\GitHub\\Blog\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A80508D2-C787-41A7-ADD0-996E82E24CD8}|Blog\\Blog.csproj|c:\\github\\blog\\blog\\areas\\admin\\views\\news\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A80508D2-C787-41A7-ADD0-996E82E24CD8}|Blog\\Blog.csproj|solutionrelative:blog\\areas\\admin\\views\\news\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A80508D2-C787-41A7-ADD0-996E82E24CD8}|Blog\\Blog.csproj|c:\\github\\blog\\blog\\areas\\admin\\views\\news\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A80508D2-C787-41A7-ADD0-996E82E24CD8}|Blog\\Blog.csproj|solutionrelative:blog\\areas\\admin\\views\\news\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0DC8EA1-A7A4-4A49-9680-B7CE567C0BCA}|Blog.Data\\Blog.Data.csproj|c:\\github\\blog\\blog.data\\repository\\newsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0DC8EA1-A7A4-4A49-9680-B7CE567C0BCA}|Blog.Data\\Blog.Data.csproj|solutionrelative:blog.data\\repository\\newsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A80508D2-C787-41A7-ADD0-996E82E24CD8}|Blog\\Blog.csproj|c:\\github\\blog\\blog\\areas\\admin\\views\\news\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A80508D2-C787-41A7-ADD0-996E82E24CD8}|Blog\\Blog.csproj|solutionrelative:blog\\areas\\admin\\views\\news\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A80508D2-C787-41A7-ADD0-996E82E24CD8}|Blog\\Blog.csproj|c:\\github\\blog\\blog\\areas\\admin\\controllers\\newscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A80508D2-C787-41A7-ADD0-996E82E24CD8}|Blog\\Blog.csproj|solutionrelative:blog\\areas\\admin\\controllers\\newscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A80508D2-C787-41A7-ADD0-996E82E24CD8}|Blog\\Blog.csproj|c:\\github\\blog\\blog\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A80508D2-C787-41A7-ADD0-996E82E24CD8}|Blog\\Blog.csproj|solutionrelative:blog\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +34,87 @@
       "DocumentGroups": [
         {
           "DockedWidth": 206,
-          "SelectedChildIndex": -1,
-          "Children": []
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NewsRepository.cs",
+              "DocumentMoniker": "C:\\GitHub\\Blog\\Blog.Data\\Repository\\NewsRepository.cs",
+              "RelativeDocumentMoniker": "Blog.Data\\Repository\\NewsRepository.cs",
+              "ToolTip": "C:\\GitHub\\Blog\\Blog.Data\\Repository\\NewsRepository.cs",
+              "RelativeToolTip": "Blog.Data\\Repository\\NewsRepository.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAxwCcAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T20:46:47.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\GitHub\\Blog\\Blog\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Blog\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\GitHub\\Blog\\Blog\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Blog\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAB8AAACHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-28T20:34:24.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\GitHub\\Blog\\Blog\\Areas\\Admin\\Views\\News\\Update.cshtml",
+              "RelativeDocumentMoniker": "Blog\\Areas\\Admin\\Views\\News\\Update.cshtml",
+              "ToolTip": "C:\\GitHub\\Blog\\Blog\\Areas\\Admin\\Views\\News\\Update.cshtml",
+              "RelativeToolTip": "Blog\\Areas\\Admin\\Views\\News\\Update.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABoAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-28T20:19:55.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\GitHub\\Blog\\Blog\\Areas\\Admin\\Views\\News\\Index.cshtml",
+              "RelativeDocumentMoniker": "Blog\\Areas\\Admin\\Views\\News\\Index.cshtml",
+              "ToolTip": "C:\\GitHub\\Blog\\Blog\\Areas\\Admin\\Views\\News\\Index.cshtml",
+              "RelativeToolTip": "Blog\\Areas\\Admin\\Views\\News\\Index.cshtml",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAqwCEAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-28T19:44:47.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\GitHub\\Blog\\Blog\\Areas\\Admin\\Views\\News\\Add.cshtml",
+              "RelativeDocumentMoniker": "Blog\\Areas\\Admin\\Views\\News\\Add.cshtml",
+              "ToolTip": "C:\\GitHub\\Blog\\Blog\\Areas\\Admin\\Views\\News\\Add.cshtml",
+              "RelativeToolTip": "Blog\\Areas\\Admin\\Views\\News\\Add.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB4AAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-28T19:44:38.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NewsController.cs",
+              "DocumentMoniker": "C:\\GitHub\\Blog\\Blog\\Areas\\Admin\\Controllers\\NewsController.cs",
+              "RelativeDocumentMoniker": "Blog\\Areas\\Admin\\Controllers\\NewsController.cs",
+              "ToolTip": "C:\\GitHub\\Blog\\Blog\\Areas\\Admin\\Controllers\\NewsController.cs",
+              "RelativeToolTip": "Blog\\Areas\\Admin\\Controllers\\NewsController.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAcwDEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T19:43:48.108Z",
+              "EditorCaption": ""
+            }
+          ]
         }
       ]
     }

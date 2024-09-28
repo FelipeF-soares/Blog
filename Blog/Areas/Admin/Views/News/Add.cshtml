@@ -1,0 +1,36 @@
+﻿@model News
+<div class="card">
+    <div class="card-header">
+        <h5 class="card-title text-center">Adicionar Post</h5>
+    </div>
+    <div class="card-body">
+        <form class="row" method="post">
+            <div class="col-12 pb-3">
+                <label asp-for="Title" class="ms-2"></label>
+                <input asp-for="Title" class="form-control form-control-sm shadow">
+                <span asp-validation-for="Title" class="text-danger"></span>
+            </div>
+            <div class="col-12 pb-3">
+                <label asp-for="Description" class="ms-2"></label>
+                <input asp-for="Description" class="form-control form-control-sm shadow">
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="pb-3">
+                <label asp-for="PathImage" for="formFileSm" class="form-label"></label>
+                <input class="form-control form-control-sm shadow" id="formFileSm" type="file">
+            </div>
+            <div class="mb-3">
+                <label asp-for="Mensagem" class="form-label"></label>
+                <textarea asp-for="Mensagem" class="form-control shadow" rows="10"></textarea>
+            </div>
+            <div>
+                <input asp-for="DatePost" hidden value="@DateTime.Now" />
+            </div>
+            <div class="col-auto">
+                <button type="submit" class="btn btn-primary mb-3">Salvar</button>
+                <a asp-controller="News" asp-action="Index" class="btn btn-secondary form-control">Voltar</a>
+            </div>
+
+        </form>
+    </div>
+</div>
