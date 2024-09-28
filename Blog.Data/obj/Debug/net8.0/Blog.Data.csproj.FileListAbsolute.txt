@@ -13,3 +13,6 @@ C:\GitHub\Blog\Blog.Data\obj\Debug\net8.0\Blog.Data.dll
 C:\GitHub\Blog\Blog.Data\obj\Debug\net8.0\refint\Blog.Data.dll
 C:\GitHub\Blog\Blog.Data\obj\Debug\net8.0\Blog.Data.pdb
 C:\GitHub\Blog\Blog.Data\obj\Debug\net8.0\ref\Blog.Data.dll
+C:\GitHub\Blog\Blog.Data\bin\Debug\net8.0\Blog.Data.runtimeconfig.json
+C:\GitHub\Blog\Blog.Data\obj\Debug\net8.0\Blog.Data.sourcelink.json
+C:\GitHub\Blog\Blog.Data\obj\Debug\net8.0\Blog.Data.genruntimeconfig.cache

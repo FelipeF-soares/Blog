@@ -1,7 +1,16 @@
+using Blog.Data.DataContext;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+var connectionString = builder.Configuration.GetConnectionString("Default");
+builder.Services.AddDbContext<NewsDataContext>
+    (
+        options => options.UseMySql(connectionString, ServerVersion
+                          .AutoDetect(connectionString))
+    );
 
 var app = builder.Build();
 
