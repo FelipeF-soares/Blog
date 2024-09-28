@@ -1,0 +1,32 @@
+﻿@model List<News>
+
+<div class="card">
+    <div class="card-header">
+        <h5 class="card-title">Lista de Post's</h5>
+    </div>
+    <div class="card-body">
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Título</th>
+                    <th scope="col">Descrição</th>
+                    <th scope="col">Editar</th>
+                    <th scope="col">Excluir</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach(var news in Model)
+                {
+                    <tr>
+                        <th scope="row">@news.Title</th>
+                        <td>@news.Description</td>
+                        <td><button type="button" class="btn btn-primary btn-sm">Editar</button></td>
+                        <td><button type="button" class="btn btn-danger btn-sm">Excluir</button></td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+    </div>
+</div>

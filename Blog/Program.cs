@@ -1,4 +1,6 @@
 using Blog.Data.DataContext;
+using Blog.Data.Repository;
+using Blog.Data.Repository.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -11,6 +13,7 @@ builder.Services.AddDbContext<NewsDataContext>
         options => options.UseMySql(connectionString, ServerVersion
                           .AutoDetect(connectionString))
     );
+builder.Services.AddScoped<INewsRepository,NewsRepository>();
 
 var app = builder.Build();
 
